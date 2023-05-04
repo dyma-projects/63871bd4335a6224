@@ -11,4 +11,11 @@ export class Exercice1Component implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  addNumber(result:number){
+    this.result = result+1;
+  }
+  deleteNumber(result:number){
+    this.result = result-1;
+  }
 }
